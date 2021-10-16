@@ -9,6 +9,8 @@ import { AccountComponent } from './admin/account/account.component';
 import { AddProductComponent } from './admin/add-product/add-product.component';
 import { AsideComponent } from './admin/component/aside/aside.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CategoriesComponent } from './admin/categories/categories.component';
+import { AddCategoryComponent } from './admin/add-category/add-category.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductListComponent,
     AccountComponent,
     AddProductComponent,
-    AsideComponent
+    AsideComponent,
+    CategoriesComponent,
+    AddCategoryComponent
   ],
   imports: [
     BrowserModule,
